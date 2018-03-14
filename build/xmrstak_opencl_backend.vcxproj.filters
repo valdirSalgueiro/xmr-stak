@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\amd\amd_gpu\gpu.cpp">
+    <ClCompile Include="C:\Users\vns\Documents\xmr-stak\xmrstak\backend\amd\amd_gpu\gpu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\amd\jconf.cpp">
+    <ClCompile Include="C:\Users\vns\Documents\xmr-stak\xmrstak\backend\amd\jconf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\amd\minethd.cpp">
+    <ClCompile Include="C:\Users\vns\Documents\xmr-stak\xmrstak\backend\amd\minethd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\vns\Documents\xmr-stak\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B731D11E-5951-355E-8DDB-E8BF15EB8A26}</UniqueIdentifier>
+      <UniqueIdentifier>{12ED9728-AE08-3472-B02C-BE39B1593289}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

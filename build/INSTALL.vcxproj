@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5A07544E-0436-3911-AD80-8049B777E8DA}</ProjectGuid>
+    <ProjectGuid>{BFFEEDD5-392C-377F-AD64-1CC732FD64B2}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Downloads\xmr-stak-dep\libmicrohttpd\include;C:\Users\vns\Downloads\xmr-stak-dep\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vns\Documents\xmr-stak\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\openssl\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -71,8 +71,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message></Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
@@ -86,7 +85,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Downloads\xmr-stak-dep\libmicrohttpd\include;C:\Users\vns\Downloads\xmr-stak-dep\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vns\Documents\xmr-stak\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\openssl\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -94,8 +93,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message></Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
@@ -109,7 +107,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Downloads\xmr-stak-dep\libmicrohttpd\include;C:\Users\vns\Downloads\xmr-stak-dep\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vns\Documents\xmr-stak\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\openssl\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,8 +115,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message></Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
@@ -132,7 +129,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Downloads\xmr-stak-dep\libmicrohttpd\include;C:\Users\vns\Downloads\xmr-stak-dep\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\vns\Documents\xmr-stak\.;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\openssl\include;C:\Users\vns\Documents\xmr-stak\xmr-stak-dep\hwloc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -140,8 +137,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>
-      </Message>
+      <Message></Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
@@ -154,9 +150,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\build\CMakeFiles\ada99bc6706a3a330e6fc0f17ad1cb2a\INSTALL_force.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </Message>
+    <CustomBuild Include="C:\Users\vns\Documents\xmr-stak\build\CMakeFiles\cf06b8c922389f71e60f53aaf69daf51\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
 if %errorlevel% neq 0 goto :cmEnd
@@ -166,11 +161,10 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/vns/Downloads/xmr-stak-27e511a1e92e903414e176161925d87165cbe25f/build/CMakeFiles/ada99bc6706a3a330e6fc0f17ad1cb2a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/vns/Documents/xmr-stak/build/CMakeFiles/cf06b8c922389f71e60f53aaf69daf51/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vns\Documents\xmr-stak\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 cd .
 if %errorlevel% neq 0 goto :cmEnd
@@ -180,11 +174,10 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/vns/Downloads/xmr-stak-27e511a1e92e903414e176161925d87165cbe25f/build/CMakeFiles/ada99bc6706a3a330e6fc0f17ad1cb2a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/vns/Documents/xmr-stak/build/CMakeFiles/cf06b8c922389f71e60f53aaf69daf51/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vns\Documents\xmr-stak\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
-      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 cd .
 if %errorlevel% neq 0 goto :cmEnd
@@ -194,11 +187,10 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/vns/Downloads/xmr-stak-27e511a1e92e903414e176161925d87165cbe25f/build/CMakeFiles/ada99bc6706a3a330e6fc0f17ad1cb2a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/vns/Documents/xmr-stak/build/CMakeFiles/cf06b8c922389f71e60f53aaf69daf51/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vns\Documents\xmr-stak\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
-      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 cd .
 if %errorlevel% neq 0 goto :cmEnd
@@ -208,18 +200,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/vns/Downloads/xmr-stak-27e511a1e92e903414e176161925d87165cbe25f/build/CMakeFiles/ada99bc6706a3a330e6fc0f17ad1cb2a/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\build\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/vns/Documents/xmr-stak/build/CMakeFiles/cf06b8c922389f71e60f53aaf69daf51/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vns\Documents\xmr-stak\build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\build\ZERO_CHECK.vcxproj">
-      <Project>{3561CACF-A79D-3785-BAFB-0F82C532F462}</Project>
+    <ProjectReference Include="C:\Users\vns\Documents\xmr-stak\build\ZERO_CHECK.vcxproj">
+      <Project>{651D5ED8-AE0E-3A0A-89ED-6D6963330F5C}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\build\ALL_BUILD.vcxproj">
-      <Project>{9611AFE2-6E52-3D53-A79C-5606D20CC682}</Project>
+    <ProjectReference Include="C:\Users\vns\Documents\xmr-stak\build\ALL_BUILD.vcxproj">
+      <Project>{B8AC3C71-E923-3AA6-98BA-2CBF851C58A2}</Project>
       <Name>ALL_BUILD</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/vns/Downloads/xmr-stak-27e511a1e92e903414e176161925d87165cbe25f
+# Install script for directory: C:/Users/vns/Documents/xmr-stak
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/vns/Downloads/xmr-stak-27e511a1e92e903414e176161925d87165cbe25f/build")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/vns/Documents/xmr-stak/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,5 +44,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/vns/Downloads/xmr-stak-27e511a1e92e903414e176161925d87165cbe25f/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/vns/Documents/xmr-stak/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
