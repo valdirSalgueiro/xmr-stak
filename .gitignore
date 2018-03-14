@@ -1,6 +1,5 @@
 bin/
 obj/
-build/
 xmr-stak-cpu.layout
 xmr-stak-cpu.depend
 config-debug.txt
@@ -18,3 +17,11 @@ config-debug.txt
 .kdev4/
 xmr-stak.kdev4
 buildvs2015/
+build/.vs/
+build/CMakeFiles/
+build/x64/
+build/xmr-stak.dir/
+build/xmrstak_cuda_backend.dir/
+build/xmrstak_opencl_backend.dir/
+build/xmr-stak-backend.dir/
+build/xmr-stak-c.dir/

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\jconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\cpu\hwlocMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\cpu\jconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\cpu\minethd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\backendConnector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\globalStates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\backend\cpu\crypto\cryptonight_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\http\httpd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\http\webdesign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\misc\console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\misc\executor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\misc\telemetry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\misc\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\net\jpsock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\xmrstak\net\socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vns\Downloads\xmr-stak-27e511a1e92e903414e176161925d87165cbe25f\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B731D11E-5951-355E-8DDB-E8BF15EB8A26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
